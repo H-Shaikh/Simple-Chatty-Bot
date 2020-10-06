@@ -1,0 +1,34 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    import java.util.Scanner
+
+    fun main(args: Array<String>) {
+        val scanner = Scanner(System.`in`)
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4537
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:12:5: error: expecting an element
+        else (n1 <= && n2 <= 0 && n3 > 0)
+        ^
+    main.kt:12:17: error: expecting an element
+        else (n1 <= && n2 <= 0 && n3 > 0)
+                    ^
+    main.kt:12:23: error: expecting an element
+        else (n1 <= && n2 <= 0 && n3 > 0)
+                          ^
+    main.kt:12:25: error: expecting ')'
+        else (n1 <= && n2 <= 0 && n3 > 0)
+                            ^
+    main.kt:12:26: error: unexpected tokens (use ';' to separate expressions on the same line)
+        else (n1 <= && n2 <= 0 && n3 > 0)
+                             ^
+  time: Sat, 08 Aug 2020 18:48:10 UTC
+record: -1

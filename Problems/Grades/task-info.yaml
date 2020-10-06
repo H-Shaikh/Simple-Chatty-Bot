@@ -1,0 +1,28 @@
+type: code
+files:
+- name: src/Task.kt
+  visible: true
+  text: |-
+    import java.util.*
+
+    fun main(args: Array<String>) {
+        val scanner = Scanner(System.`in`)
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4650
+status: Failed
+feedback:
+  message: "Failed test #1 of 10. Runtime error\n\nThis is a sample test from the\
+    \ problem statement!\n\nTest input:\n12\n3\n5\n5\n5\n4\n5\n3\n4\n5\n3\n3\n2\n\n\
+    Correct output:\n1 4 2 5\n\nYour code output:\n\n\nError:\nException in thread\
+    \ \"main\" java.util.NoSuchElementException\n\tat java.base/java.util.Scanner.throwFor(Scanner.java:937)\n\
+    \tat java.base/java.util.Scanner.next(Scanner.java:1594)\n\tat java.base/java.util.Scanner.nextInt(Scanner.java:2258)\n\
+    \tat java.base/java.util.Scanner.nextInt(Scanner.java:2212)\n\tat MainKt.main(main.kt:13)\n\
+    \tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\
+    \tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\
+    \tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\
+    \tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.jetbrains.kotlin.runner.AbstractRunner.run(runners.kt:61)\n\
+    \tat org.jetbrains.kotlin.runner.Main.run(Main.kt:109)\n\tat org.jetbrains.kotlin.runner.Main.main(Main.kt:119)\n"
+  time: Fri, 25 Sep 2020 12:25:12 UTC
+record: -1

@@ -1,0 +1,46 @@
+type: code
+files:
+- name: src/Main.kt
+  visible: true
+  text: |-
+    import java.util.*
+
+    fun main(args: Array<String>) {
+        val scanner = Scanner(System.`in`)
+        // put your code here
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/4649
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    main.kt:15:14: error: expecting an element
+             fix += larger
+                 ^
+    main.kt:15:23: error: expecting an element
+             fix += larger
+                          ^
+    main.kt:21:21: error: expecting an element
+                rejects += smaller
+                        ^
+    main.kt:21:31: error: expecting an element
+                rejects += smaller
+                                  ^
+    main.kt:30:19: error: expecting an element
+                ready += perfect
+                      ^
+    main.kt:30:29: error: expecting an element
+                ready += perfect
+                                ^
+    main.kt:15:10: error: unresolved reference: fix
+             fix += larger
+             ^
+    main.kt:21:13: error: unresolved reference: rejects
+                rejects += smaller
+                ^
+    main.kt:30:13: error: unresolved reference: ready
+                ready += perfect
+                ^
+  time: Wed, 23 Sep 2020 08:05:32 UTC
+record: -1
